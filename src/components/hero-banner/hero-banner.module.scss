@@ -1,0 +1,50 @@
+.mainContainer {
+  margin: 70px 0px 0px 0px;
+
+  display: flex;
+  height: 500px;
+  background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+  color: white;
+  justify-content: space-around;
+}
+
+.mainText {
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.subText {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 40px;
+}
+.bookBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0px;
+  position: static;
+  width: 200px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  margin-inline: auto;
+  margin-top: 50px;
+  border: 1.5px solid #f2faff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.bookBtn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
