@@ -1,4 +1,4 @@
-export default function (req, res) {
+export default function ContactHome(req, res) {
     require("dotenv").config();
   
     const password = process.env.PASSWORD;

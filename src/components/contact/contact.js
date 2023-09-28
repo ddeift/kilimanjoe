@@ -10,7 +10,7 @@ import Link from "next/link"
 
 export default function Contact({setPrivacyProtection, setIndexPage}) {
   // eslint-disable-next-line no-unused-vars
-  const [submitted, setSubmitted] = useState(false);
+  // const [submitted, setSubmitted] = useState(false);
   const [phone, setPhone] = useState();
   const [showPostModal, setShowPostModal] = useState(false);
   const [privacyChecked, setPrivacyChecked] = useState(false);
@@ -45,7 +45,7 @@ export default function Contact({setPrivacyProtection, setIndexPage}) {
       console.log("Response received");
       if (res.status === 200) {
         console.log("Response succeeded!");
-        setSubmitted(true);
+        // setSubmitted(true);
         resetField("firstName");
 
         resetField("email");
