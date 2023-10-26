@@ -170,12 +170,12 @@ export default function Contact({setPrivacyProtection, setIndexPage}) {
       <div>
         <p className={styles.contactTitle}>Kontaktinformation</p>
         <p className={styles.infoTextTitle}>KilimanJoe GmbH</p>
-        <p className={styles.infoText}>Kurfüstenstraße 79</p>
+        <p className={styles.infoText}>Kurfürstenstraße 79</p>
         <p className={styles.infoText}>10787 Berlin</p>
-        <a className={styles.infoText} href="mailto:kilimanjoe@gmx.de">
+        {/* <a className={styles.infoText} href="mailto:kilimanjoe@gmx.de">
           kilimanjoe@gmx.de
-        </a>
-        <p className={styles.infoText}>+49 30 213 000 551</p>
+        </a> */}
+        {/* <p className={styles.infoText}>+49 30 213 000 551</p> */}
       </div>
     </div>
   );
