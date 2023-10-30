@@ -1,6 +1,6 @@
 .mainContainer {
   background-color: white;
-  height: 70px;
+  height: 90px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px, rgba(0, 0, 0, 0.1) 0px 5px 5px;
   position: fixed;
   top: 0;
@@ -9,6 +9,10 @@
   width: 100%;
   padding-left: 40px;
   padding-top: 20px;
+}
+.logo{
+  height: 100px;
+  margin-top: -20px;
 }
 .title {
   color:#090b3fea;

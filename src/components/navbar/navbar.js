@@ -31,13 +31,14 @@ export default function Navbar({setCookiesAgreed, cookiesAgreed, setPrivacyProte
         </div>
       )}
 
-      {console.log(cookiesAgreed)}
+      
       <a onClick={()=>{
         setPrivacyProtection(false)
         setImpressum(false)
         setIndexPage(true)
       }} className={styles.title}>
-        KilimanJoe Pension
+     <img className={styles.logo} src="KMJ_Logo.png" alt="KilimanJoe Logo"/>
+     
       </a>
     </div>
   );
